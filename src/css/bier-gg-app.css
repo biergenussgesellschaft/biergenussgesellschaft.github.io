@@ -1,0 +1,42 @@
+.clickable {}
+.clickable:hover {
+    cursor: pointer;
+}
+.clickable:focus {
+    outline: 0;
+}
+
+.logo-container {
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+#logo-1 { font-weight: 700; }
+#logo-2 { font-weight: 500; }
+#logo-3 { font-weight: 300; }
+#logo-small { font-weight: 300; }
+
+#bier-gg-header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 0px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+@media (max-width: 800px) {
+    #bier-gg-header {
+        height: 70px;
+    }
+}
+
+html, body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #777;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}

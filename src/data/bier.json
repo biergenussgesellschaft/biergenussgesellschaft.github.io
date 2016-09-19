@@ -1,0 +1,15 @@
+[
+  {"lat": 48.302559, "lng": 9.900332, "layer": "bier", "props": {"id": 1, "n": "Adlerbrauerei Dellmensingen"}},
+  {"lat": 48.287985, "lng": 10.220430, "layer": "bier", "props": {"id": 2, "n": "Brauerei Biberach"}},
+  {"lat": 48.491925, "lng": 9.508716, "layer": "bier", "props": {"id": 3, "n": "BÖHRINGER Hirschbrauerei Schilling KG"}},
+  {"lat": 48.265420, "lng": 10.220896, "layer": "bier", "props": {"id": 4, "n": "Brauerei Messhofen"}},
+  {"lat": 48.349088, "lng": 10.294303, "layer": "bier", "props": {"id": 5, "n": "Brauerei zum Goldenen Engel"}},
+  {"lat": 48.063478, "lng": 9.832733, "layer": "bier", "props": {"id": 6, "n": "Bräuhaus Ummendorf"}},
+  {"lat": 48.403196, "lng": 10.020321, "layer": "bier", "props": {"id": 7, "n": "Brauerei-Gasthaus Schlössle"}},
+  {"lat": 48.281999, "lng": 9.719213, "layer": "bier", "props": {"id": 8, "n": "Brauerei Rössle"}},
+  {"lat": 48.395271, "lng": 9.956003, "layer": "bier", "props": {"id": 9, "n": "Kronenbrauerei Söflingen"}},
+  {"lat": 48.448980, "lng": 10.218560, "layer": "bier", "props": {"id": 10, "n": "Hirschbräu Leipheim"}},
+  {"lat": 48.485961, "lng": 10.027794, "layer": "bier", "props": {"id": 11, "n": "Pflugbrauerei Hörvelsingen"}},
+  {"lat": 48.283442, "lng": 9.727899, "layer": "bier", "props": {"id": 12, "n": "Brauerei und Gasthof Schwanen"}},
+  {"lat": 48.671116, "lng": 9.989305, "layer": "bier", "props": {"id": 12, "n": "Hirschbrauerei Söhnstetten"}}
+]

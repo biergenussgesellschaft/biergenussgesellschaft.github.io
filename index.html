@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bier-gg-app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BIER | GENUSS | GESELLSCHAFT</title>
+    <meta name="description" content="Your ultimate beer experience. Places / Useful tips / Pleasure">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="src/css/ext/angular/material/angular-material.min.css">
+    <link rel="stylesheet" href="src/css/ext/leaflet/leaflet.css">
+    <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.css">
+    <link rel="stylesheet" href="src/css/ext/leaflet/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="src/css/ext/utils/angular-busy.min.css">
+    <link rel="stylesheet" href="src/css/bier-gg-app.css">
+    <link rel="stylesheet" href="src/css/icons.css">
+
+    <script src="src/js/ext/angular/angular.min.js"></script>
+    <script src="src/js/ext/angular/angular-route.min.js"></script>
+    <script src="src/js/ext/angular/material/angular-animate.min.js"></script>
+    <script src="src/js/ext/angular/material/angular-aria.min.js"></script>
+    <script src="src/js/ext/angular/material/angular-messages.min.js"></script>
+    <script src="src/js/ext/angular/material/angular-material.min.js"></script>
+    <script src="src/js/ext/leaflet/leaflet.js"></script>
+    <script src="src/js/ext/leaflet/leaflet.markercluster.js"></script>
+    <script src="src/js/ext/leaflet/angular-leaflet-directive.min.js"></script>
+    <script src="src/js/ext/utils/angular-busy.min.js"></script>
+    <script src="src/js/ext/utils/promise-tracker.min.js"></script>
+    <script src="src/js/ext/utils/angular-translate.min.js"></script>
+
+    <script src="src/js/utils/version.js"></script>
+    <script src="src/js/utils/version-directive.js"></script>
+    <script src="src/js/utils/interpolate-filter.js"></script>
+
+    <script src="src/translations/translations-en_US.js"></script>
+
+    <script src="src/js/common/data-factory.js"></script>
+    <script src="src/js/controllers/main.js"></script>
+    <script src="src/js/controllers/home.js"></script>
+    <script src="src/js/controllers/map.js"></script>
+</head>
+<body cg-busy="{tracker: 'loadingTracker', backdrop: true}">
+    <script src="src/js/bier-gg-app.js"></script>
+    <div data-ng-include="'src/views/header.html'"></div>
+    <div data-ng-view></div>
+</body>
+</html>
