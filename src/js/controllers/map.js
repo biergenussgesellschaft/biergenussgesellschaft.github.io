@@ -13,6 +13,16 @@ map = function($scope, $window, $timeout, dataFactory) {
 
     // Configuring basic map data.
     angular.extend($scope, {
+        maxBounds: {
+            southWest: {
+                lat: 46.0,
+                lng: 5.0
+            },
+            northEast: {
+                lat: 57.0,
+                lng: 15.0
+            }
+        },
         center: {
             lat: 48.401082,
             lng: 9.987608,
